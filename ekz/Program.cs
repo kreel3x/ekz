@@ -58,7 +58,7 @@ namespace ekz
         public void Na4aloFilma()
         {
 
-            Console.WriteLine("Начало сеанса: " + name + " со " + viewers + " зрителем/ями.");
+            Console.WriteLine("Начало сеанса: " + name + " с " + viewers + " зрителем/ями.");
             Thread.Sleep(5000);
             Console.WriteLine("Конец сеанса " + name + ". Все на выход!");
             viewers = 0;
